@@ -1,0 +1,34 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+   
+}
+
+.flag-container img{
+    width: 40px;
+}
+
+.country img{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin-left: 5%;
+    
+}
+.text{
+   text-align: center;
+   font-weight: 900;
+   color: black;
+    
+}
+.btn{
+    
+    font-size: 15px;
+    color: black;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: skyblue;
+}
